@@ -6,6 +6,7 @@ class Excs < Formula
   
     def install
       system "make"
+      system "ls bin"
       bin.install "excs"
     end
   
